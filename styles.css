@@ -76,9 +76,30 @@ hr{
     height: 100px;
     width: auto;
     fill: white;
+
 }
-.contactlogs{
-    display:block;
+.twitter:hover{
+    height: 170px;
+    width: auto;
+    fill: #00acee;
+}
+.github:hover{
+    height: 170px;
+    width: auto;
+    fill: #c9510c;
+}
+.linkedin:hover{
+    height: 170px;
+    width: auto;
+    fill: blue;
+}
+.contactlogos{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 /* footer */
 footer{
