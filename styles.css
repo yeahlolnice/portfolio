@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* nav section */
+.navbar{
+    display: inline-block;
+}
+.navlink{
+    display: inline-block;
+    padding: 10px 5px;
+    margin-top: 20px;
+}
+.navlink a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px;
+    transition: 1s;
+}
+.navlink a:hover{
+    font-size: 2rem;
+}
+.logo{
+    float: right;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 0px 3px 5px black;
+}
+hr{
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+/* background image */
+.bgImage{
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -3;
+    
+}
+/* body content */
+.displayimage{
+    display: flex;
+    height: 200px;
+    width: auto;
+    margin: 50px auto;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 8%;
+    margin: 0 15%;
+    padding: 10px;
+
+}
+.abouttxt{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: hidden;
+    color:white;
+    
+}
+/* contact logos */
+.github, .twitter, .linkedin{
+    display: flex;
+    height: 100px;
+    width: auto;
+    fill: white;
+}
+.contactlogs{
+    display:block;
+}
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0%;
+    margin: 0px auto;
+    width: 100%;
+}
+.footerbox{
+    display: block;
+    color: white;
+    text-align: center;
+    box-shadow: 0 -5px 5px -5px whitesmoke;
+    padding: 15px;
+}
