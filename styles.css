@@ -101,6 +101,7 @@ hr{
     height: 100px;
     width: auto;
     fill: white;
+    transition-duration: 0.5s;
 
 }
 .twitter:hover{
@@ -139,5 +140,11 @@ footer{
     text-align: center;
     box-shadow: 0 -5px 5px -5px whitesmoke;
     padding: 15px;
+    
+}
+@media screen and (min-width: 480px){
+    .contactlogos{
+        flex-direction: row;
+    }
     
 }
