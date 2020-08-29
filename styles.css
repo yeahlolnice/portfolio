@@ -52,7 +52,7 @@ section{
 .logo{
     float: right;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-shadow: 0px 3px 5px black;
 }
 hr{
@@ -129,35 +129,36 @@ hr{
                                     /* skill page content */
 article h2{
     color: white;
+    text-shadow: 1px 5px 2px  black;
 }
 article{
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
     height: 100%;
-    align-items: center;
+    /* align-items: center; */
 }
 .skillbox{
-    display: flex;
+    display: block;
     background-color: #333;
     padding: 5px;
-    flex-direction: column;
     height: auto;
-    width: 75%;
+    width: 240px;
     border-radius: 7%;
+    text-align: center;
 }
 .skills{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
 }
 .skilltxt{
-    display: flex;
+    padding: 5px;
     color: white;
     padding: 10px;
     list-style: none;
     text-align: center;
-    flex-wrap: wrap;
     font-size: 1.2em;
 }
 
@@ -181,5 +182,16 @@ footer{
     .contactlogos{
         flex-direction: row;
     }
-    
+    .skills{
+        flex-direction: row;
+    }
+    .skilltxt{
+        font-size: 1.5em;
+    }
+    .skillbox{
+        width: 40%;
+    }
+    .abouttxt{
+        font-size: 1.5em;
+    }
 }
