@@ -44,7 +44,7 @@ section{
     text-decoration: none;
     font-size: 1.5rem;
     padding: 5px;
-    transition: 1s;
+    transition: 0.5s;
 }
 .navlink a:hover{
     font-size: 2rem;
@@ -73,7 +73,7 @@ hr{
     display: grid;
     grid-area: section;
 }
-                                        /* body content */
+                                        /* index content */
 .displayimage{
     display: flex;
     height: 200px;
@@ -132,11 +132,8 @@ article h2{
     text-shadow: 1px 5px 2px  black;
 }
 article{
-    /* display: flex; */
-    /* justify-content: space-evenly; */
     height: 100%;
-    /* align-items: center; */
-}
+} 
 .skillbox{
     display: block;
     background-color: #333;
@@ -162,6 +159,37 @@ article{
     font-size: 1.2em;
 }
 
+                                        /* Blog page */
+.blogbox{
+    display: flex;
+    background-color: #333;
+    width: 70%;
+    /* height: 20%;  */
+    border-radius: 7%;
+    flex-grow: inherit;
+    margin-bottom: 30px;
+}
+#blogtitle{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+#blogBody{
+    height: 100%;
+}
+#blogContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.blogtxt{
+    color: white;
+    padding: 10px;
+}
                                         /* footer */
 footer{
     /* position: fixed;
