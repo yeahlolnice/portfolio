@@ -15,7 +15,7 @@ body{
         ;
     background-image: url(./circuitwallpaper.jpg);
     background-size: cover;
-    height: 100VH;
+    min-height: 100VH;
 }
 header{
     grid-area: header;
@@ -29,7 +29,6 @@ section{
     align-items: center;
     
 }
-
                                         /* nav section */
 .navbar{
     display: inline-block;
@@ -84,7 +83,8 @@ hr{
     background-color: #333;
     border-radius: 8%;
     padding: 10px;
-    margin: 10% 15%;
+    margin: 5% 15%;
+    box-shadow: 2px 5px 7px black;
 
 }
 .abouttxt{
@@ -126,13 +126,19 @@ hr{
     align-items: center;
     justify-content: space-evenly;
 }
+.contactInfo{
+    color: white;
+    font-size: 1.3em;
+    background-color: #333;
+    padding: 5px;
+}
                                     /* skill page content */
 article h2{
     color: white;
     text-shadow: 1px 5px 2px  black;
 }
 article{
-    height: 100%;
+    min-height: 100%;
 } 
 .skillbox{
     display: block;
@@ -142,6 +148,7 @@ article{
     width: 240px;
     border-radius: 7%;
     text-align: center;
+    box-shadow: 2px 5px 7px black;
 }
 .skills{
     display: flex;
@@ -161,29 +168,24 @@ article{
 
                                         /* Blog page */
 .blogbox{
-    display: flex;
     background-color: #333;
     width: 70%;
-    /* height: 20%;  */
     border-radius: 7%;
-    flex-grow: inherit;
     margin-bottom: 30px;
+    box-shadow: 3px 8px 5px black;
 }
 #blogtitle{
     color: white;
     font-size: 3em;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
    
-}
-#blogBody{
-    height: 100%;
 }
 #blogContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    grid-area: section;
     
 }
 .blogtxt{
@@ -220,6 +222,13 @@ footer{
         width: 40%;
     }
     .abouttxt{
+        font-size: 1.5em;
+    }
+    .blogbox{
+        width: 50%;
+
+    }
+    .blogtxt{
         font-size: 1.5em;
     }
 }
