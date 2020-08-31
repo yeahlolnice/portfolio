@@ -1,0 +1,22 @@
+.displayimage{
+    display: flex;
+    height: 200px;
+    width: auto;
+    
+}
+.aboutContainer{
+    background-color: #333;
+    border-radius: 8%;
+    padding: 10px;
+    margin: 5% 15%;
+    box-shadow: 2px 5px 7px black;
+
+}
+.abouttxt{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: hidden;
+    color:white;
+    
+}

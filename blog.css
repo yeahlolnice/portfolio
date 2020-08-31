@@ -1,0 +1,32 @@
+.blogbox{
+    background-color: #333;
+    width: 70%;
+    border-radius: 7%;
+    margin-bottom: 30px;
+    box-shadow: 3px 8px 5px black;
+}
+#blogtitle{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+#blogContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: section;
+    
+}
+.blogtxt{
+    
+    color: white;
+    padding: 10px;
+}
+.blogImg{
+    height: 50%;
+    width: 50%;
+    margin-right: 10px;
+    float: left;
+}
