@@ -21,6 +21,15 @@ article{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    animation: fade 2s;
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
 }
 .skilltxt{
     padding: 5px;
