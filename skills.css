@@ -39,3 +39,8 @@ article{
     text-align: center;
     font-size: 1.2em;
 }
+@media screen and (min-width: 480px){
+    .skills{
+        flex-direction: row;
+    }
+}
