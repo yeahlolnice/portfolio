@@ -23,7 +23,9 @@ section{
     width: 40%;
     float: left;
     margin-right: 10px;
+    border-radius: 7%;
 }
+/* blows up the picture when you click on it  */
 .lightbox {
 	display: none;
 	position: fixed;
@@ -36,13 +38,18 @@ section{
 	background: rgba(0,0,0,0.8);
 }
 .lightbox img {
-	/** Pad the lightbox image */
+	/* Pad the lightbox image */
 	max-width: 90%;
 	max-height: 80%;
 	margin-top: 2%;
 }
+/* Unhide lightbox **/
 .lightbox:target {
 	outline: none;
-	/** Unhide lightbox **/
 	display: block;
+}
+@media screen and (min-width: 1000px){
+    .projecttxt{
+        font-size: 1.5em;
+    }
 }

@@ -49,7 +49,7 @@
     flex-direction: column;
 }
 #resumeLink{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 @media screen and (min-width: 650px){
